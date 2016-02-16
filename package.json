@@ -1,0 +1,23 @@
+{
+  "name": "nodeAngularTodoApp",
+  "version": "0.0.0",
+  "description": "Simple todo application.",
+  "main": "server.js",
+  "author": "Bryan Knight",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "angular": "^1.5.0",
+    "body-parser": "~1.13.2",
+    "dotenv": "^2.0.0",
+    "express": "~4.13.1",
+    "jquery": "^2.2.0",
+    "method-override": "~2.1.2",
+    "mongoose": "^4.4.3",
+    "morgan": "~1.6.1",
+    "node-sass-middleware": "0.8.0",
+    "serve-favicon": "~2.3.0"
+  }
+}
